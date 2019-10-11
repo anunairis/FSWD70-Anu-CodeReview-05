@@ -1,0 +1,27 @@
+/* .none:hover {
+	text-decoration: none;
+	cursor: pointer;
+} */
+.movie-header {
+	background-color: black;
+}
+.movie_factory {
+	font-size: 38px;
+}
+.home {
+	font-size: 1.8rem;
+}
+.movies {
+	padding-left:  140px;
+}
+.sort {
+	position: absolute;
+	right:  20px;
+	top: 24px;
+}
+.sort_parent {
+	position: relative;
+}
+.dark_gray {
+	background-color: #171E24;
+}
