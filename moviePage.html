@@ -11,8 +11,12 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+
+
 
 	<div class="container-fluid">
 		<div class="p-3 movie-header">
@@ -26,14 +30,22 @@
 	    		<span class="home text-white align-middle pl-3"><strong>Contact</strong></span></a>
 		</nav>
 
+							<!-- ----------MOVIES AND SORT------------ -->
+
+
 	<div class="container-fluid dark_gray">
-		<div class="row pt-4 sort_parent">
-		<p class="movies text-center col-lg-11 text-white">Movies</p>
-		<p class="sort text-white">Sort</p>
+		<div class="row sort_parent d-flex justify-content-between movies_container flex-nowrap">
+			<span class="movies_hidden col-lg-3 px-0 dark-gray"><strong>Movies1</strong></span>
+			<span class="movies col-lg-3 text-white px-0"><strong>Movies</strong></span>
+			<span class="sort text-white fa d-flex flex-nowrap pr-3">&#xf0dc; <strong>Sort</strong></span>
 		</div>
-	</div>
+							
+							<!-- -------------ROW OF CONTENT--------------  -->
+		
 
-
+		<div id="movies_container" class="row last_row mb-5 d-flex justify-content-around">	
+		</div>
+	</div> 
 
 
 

@@ -1,27 +1,37 @@
-/* .none:hover {
-	text-decoration: none;
-	cursor: pointer;
-} */
 .movie-header {
-	background-color: black;
-}
+  background-color: black; }
+
 .movie_factory {
-	font-size: 38px;
-}
+  font-size: 38px; }
+
 .home {
-	font-size: 1.8rem;
-}
-.movies {
-	padding-left:  140px;
-}
-.sort {
-	position: absolute;
-	right:  20px;
-	top: 24px;
-}
+  font-size: 1.8rem; }
+
+.movies_container {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
 .sort_parent {
-	position: relative;
-}
+  font-size: 1.4rem; }
+
 .dark_gray {
-	background-color: #171E24;
-}
+  background-color: #171E24;
+  color: #171E24; }
+
+.last_row {
+  margin-bottom: 100px; }
+
+.align-self-stretch {
+  height: 300px; }
+
+.title_style {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+.change_bg_dark {
+  background-color: black; }
+
+.bg-warning {
+  font-size: 2rem; }
+
+/*# sourceMappingURL=style.css.map */
