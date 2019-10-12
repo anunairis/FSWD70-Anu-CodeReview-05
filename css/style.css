@@ -19,7 +19,7 @@
   color: #171E24; }
 
 .last_row {
-  margin-bottom: 100px; }
+  margin-bottom: 500px; }
 
 .align-self-stretch {
   height: 300px; }
@@ -33,5 +33,24 @@
 
 .bg-warning {
   font-size: 2rem; }
+
+.hover_row {
+  transition: transform .2s; }
+
+@media screen and (min-width: 1200px) {
+  .hover_row:hover {
+    transform: scale(1.2); } }
+.likes_container {
+  top: 225px;
+  right: 6px;
+  position: absolute; }
+
+@media screen and (max-width: 1100px) {
+  .likes_container {
+    /* display: none; */
+    position: static; } }
+.footer {
+  background-color: black;
+  margin-top: -50px; }
 
 /*# sourceMappingURL=style.css.map */
